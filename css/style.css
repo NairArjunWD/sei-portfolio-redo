@@ -46,13 +46,18 @@ ul {
   flex-wrap: wrap;
 }
 
-.col-3 {width : 25.0%;}
-.col-9 {width : 75.0%;}
+.col-3 {
+  width : 25.0%;
+}
+
+.col-9 {
+  width : 75.0%;
+}
 
 
 article {
-  background: rgb(93,188,210);
-  background: linear-gradient(0deg, rgba(93,188,210,1) 9%, rgba(84,153,156,1) 100%);
+  background: rgb(73,54,158);
+  background: linear-gradient(0deg, rgba(73,54,158,1) 9%, rgba(255,255,255,1) 100%);
   color: aliceblue;
 }
 
@@ -117,4 +122,39 @@ a {
   left: 45%;
   bottom: 30px;
   position: absolute;
+}
+
+h2 {
+  /* background: rgb(93,188,210); */
+  /* background: linear-gradient(0deg, rgba(93,188,210,1) 9%, rgba(84,153,156,1) 100%); */
+  background: rgb(93,188,210);
+  background: linear-gradient(90deg, rgba(93,188,210,1) 9%, rgba(255,255,255,1) 100%);
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+.android {
+  background: rgb(58,221,133);
+  background: linear-gradient(90deg, rgba(58,221,133,1) 9%, rgba(255,255,255,1) 100%);
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+.se {
+  background: rgb(73,54,158);
+  background: linear-gradient(90deg, rgba(73,54,158,1) 9%, rgba(255,255,255,1) 100%);
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+.article-android {
+  background: rgb(58,221,133);
+  background: linear-gradient(0deg, rgba(58,221,133,1) 9%, rgba(24,233,120,1) 100%);
+  color: aliceblue;
+}
+
+.article-se {
+  background: rgb(93,188,210);
+  background: linear-gradient(0deg, rgba(93,188,210,1) 9%, rgba(84,153,156,1) 100%);
+  color: aliceblue;
 }
