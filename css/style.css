@@ -56,8 +56,8 @@ ul {
 
 
 article {
-  background: rgb(73,54,158);
-  background: linear-gradient(0deg, rgba(73,54,158,1) 9%, rgba(255,255,255,1) 100%);
+  background: rgb(119,100,208);;
+  background: linear-gradient(0deg, rgba(119,100,208,1) 9%, rgba(73,54,158,1) 100%);
   color: aliceblue;
 }
 
