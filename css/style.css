@@ -222,6 +222,12 @@ i.devicon-github-plain {
    text-align: center;
 }
 
+i.devicon-git-plain {
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+}
+
 i.devicon-heroku-plain{
    display: inline-block;
    width: 100%;
@@ -233,3 +239,12 @@ i.firebase {
    width: 100%;
    text-align: center;
 }
+
+button {
+  background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+} 
