@@ -57,7 +57,7 @@ ul {
 
 article {
   background: rgb(119,100,208);;
-  background: linear-gradient(0deg, rgba(119,100,208,1) 9%, rgba(73,54,158,1) 100%);
+  background: linear-gradient(0deg, rgb(126, 103, 230) 9%, rgba(73,54,158,1) 100%);
   color: aliceblue;
 }
 
@@ -133,6 +133,20 @@ h2 {
   font-size: 2rem;
 }
 
+.skills-h2 {
+  /* background: rgb(93,188,210); */
+  /* background: linear-gradient(0deg, rgba(93,188,210,1) 9%, rgba(84,153,156,1) 100%); */
+  background: rgb(73,54,158);
+  background: linear-gradient(90deg, rgba(73,54,158,1) 9%, rgba(255,255,255,1) 100%);
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+.education-h2 {
+  background: rgb(100,159,208);
+  background: linear-gradient(90deg, rgba(100,159,208,1) 9%, rgba(255,255,255,1) 100%);
+}
+
 .android {
   background: rgb(58,221,133);
   background: linear-gradient(90deg, rgba(58,221,133,1) 9%, rgba(255,255,255,1) 100%);
@@ -141,8 +155,8 @@ h2 {
 }
 
 .se {
-  background: rgb(73,54,158);
-  background: linear-gradient(90deg, rgba(73,54,158,1) 9%, rgba(255,255,255,1) 100%);
+  background: rgb(93,188,210);
+  background: linear-gradient(90deg, rgba(93,188,210,1) 9%, rgba(255,255,255,1) 100%);
   color: aliceblue;
   font-size: 2rem;
 }
@@ -158,3 +172,4 @@ h2 {
   background: linear-gradient(0deg, rgba(93,188,210,1) 9%, rgba(84,153,156,1) 100%);
   color: aliceblue;
 }
+
