@@ -215,3 +215,21 @@ li.bullet-blue:after {
 	 top: 0.25em;
 	 left: 0;
 }
+
+i.devicon-github-plain {
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+}
+
+i.devicon-heroku-plain{
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+}
+
+i.firebase {
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+}
