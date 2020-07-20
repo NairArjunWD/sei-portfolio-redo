@@ -40,10 +40,11 @@ ul {
 
 .row {
   padding: px;
-  text-align: center;
+  text-align: left;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  border-bottom: rgb(100,159,208) 2px solid;
 }
 
 .col-3 {
@@ -173,3 +174,44 @@ h2 {
   color: aliceblue;
 }
 
+.about {
+  font-size: 1rem;
+}
+
+li.bullet {
+	 margin: 0;
+	 margin-bottom: .25em;
+	 padding-left: 1.5em;
+	 position: relative;
+}
+
+li.bullet:after {
+	 content: '';
+	 height: 0.4em;
+	 width: 0.4em;
+	 background: white;
+	 display: block;
+	 position: absolute;
+	 transform: rotate(45deg);
+	 top: 0.25em;
+	 left: 0;
+}
+
+li.bullet-blue {
+	 margin: 0;
+	 margin-bottom: .25em;
+	 padding-left: 1.5em;
+	 position: relative;
+}
+
+li.bullet-blue:after {
+	 content: '';
+	 height: 0.4em;
+	 width: 0.4em;
+	 background: rgb(100,159,208);
+	 display: block;
+	 position: absolute;
+	 transform: rotate(45deg);
+	 top: 0.25em;
+	 left: 0;
+}
